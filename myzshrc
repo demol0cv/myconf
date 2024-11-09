@@ -1,0 +1,8 @@
+# Инициализирую менеджер плагинов
+
+source ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh
+antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
+
+# Алиасы
+
+alias avenv="source $(pwd)/.venv/bin/activate"

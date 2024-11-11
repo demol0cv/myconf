@@ -8,3 +8,6 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 alias avenv="source $(pwd)/.venv/bin/activate"
 alias rufix="ruff check --fix"
 
+# Переменные
+
+export MANROFFOPT="-c"

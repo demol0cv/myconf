@@ -1,3 +1,6 @@
+# приглашение командной строки
+RPROMPT='%{$fg[red]%} ⏎ $? %{$reset_color%} '$RPROMPT
+
 # Инициализирую менеджер плагинов
 
 source ${ZDOTDIR:-$HOME}/.antidote/antidote.zsh
@@ -11,3 +14,5 @@ alias rufix="ruff check --fix"
 # Переменные
 
 export MANROFFOPT="-c"
+# Темы
+fpath=(~/.myconf/zsh_themes $fpath)
